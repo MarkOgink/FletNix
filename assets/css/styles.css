@@ -5,27 +5,78 @@ body{
 }
 
 header{
-
+    text-align: center;
+    font-size: 15em;
+    color: red;
 }
 
 nav{
-
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-nav ul{
-    position: relative;
+nav ul {
+    float: left;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.dropdown{
     display: inline-block;
 }
 
-nav ul li{
-    display: none;
-    /*position: absolute;*/
-    opacity: 10;
-    min-width: 160px;
+nav ul li form{
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease;
+    background: none;
+    width: inherit;
+    text-align: center;
 }
 
-nav ul:hover, nav ul li{
+nav ul li form input{
+    background: none;
+    color: white;
+    width: auto;
+    border-radius: 4px;
+    margin: 5px 0px;
+}
+
+nav ul li form input[type=submit]{
+    align-self: center;
+    margin: auto;
+    color: white;
+    background: none;
+}
+
+nav ul li a:hover{
+    transition: all 1s ease;
+    background-color: red;
+}
+
+li.dropdown:hover form{
+    overflow: hidden;
+    transition: all 1s ease;
     display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
 h1{
@@ -35,5 +86,18 @@ h1{
 }
 
 main{
+    clear: both;
     min-height: 800px;
+    width: auto;
+}
+aside{
+    max-width: 20%;
+}
+
+article{
+    margin: 0% 20%;
+}
+
+footer{
+    clear: left;
 }

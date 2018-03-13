@@ -7,22 +7,47 @@
 </head>
 <body>
 <header>
-    <h1>
-        FletNix
-    </h1>
+    Fletnix
 </header>
 <nav>
     <ul>
-        mouse over me
-        <li>Login</li>
+        <li class="dropdown">
+            <a href="#">Login</a>
+            <form method="get" action="homepage.html">
+                <label for="gebruikersnaam">Gebruikersnaam: </label>
+                <input type="text" name="gebruikersnaam" id="gebruikersnaam">
+                <label for="wachtwoord">Wachtwoord: </label>
+                <input type="password" name="wachtwoord" id="wachtwoord">
+                <input type="submit" name="inloggen" value="Inloggen">
+            </form>
+        </li>
+        <li>
+            <a href="abonnement.html">Abonnement</a>
+        </li>
+        <li>
+            <a href="filmoverzicht.html.html">Filmoverzicht</a>
+        </li>
+        <li>
+            <a href="gastenboek.html.html">Gastenboek</a>
+        </li>
+
     </ul>
 </nav>
 
 <main>
+    <aside>
+        Hier is de aside
+    </aside>
+    <article>
+        Hoi! <br>
+        Leuk dat je films komt kijken op Fletnix
+    </article>
+    <aside>
 
+    </aside>
 </main>
 <footer>
-
+Dit is de footer
 </footer>
 </body>
 </html>
