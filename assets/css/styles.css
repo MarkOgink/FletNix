@@ -38,12 +38,41 @@ nav ul li a{
     border-radius: 10px;
 }
 
+nav ul li ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav ul li ul li{
+    visibility: hidden;
+    transition: all 0.5s ease;
+    font-size: 0.5em;
+    height: 0px;
+}
+
+nav ul li ul li a{
+    visibility: hidden;
+}
+
+
+nav ul li:hover ul li{
+    transition: all 0.5s ease;
+    visibility: visible;
+    height: 40px;
+}
+
+nav ul li:hover ul li a{
+    padding: 5px 5px;
+    visibility: visible;
+}
+
 nav ul li a:hover{
     transition: all 1s ease;
     background-color: red;
 }
 
-main aside{
+main aside {
     max-width: 20%;
 }
 
@@ -86,19 +115,6 @@ main aside form input[type=submit]{
     background: none;
 }
 
-/*main aside .login a:hover{*/
-    /*transition: all 1s ease;*/
-    /*background-color: red;*/
-/*}*/
-
-/*main aside .login:hover form{*/
-    /*overflow: hidden;*/
-    /*transition: all 1s ease;*/
-    /*background: none;*/
-    /*opacity: 1;*/
-    /*visibility: visible;*/
-/*}*/
-
 h1{
     color: white;
     text-align: center;
@@ -106,15 +122,17 @@ h1{
 }
 
 main {
-    clear: both;
     min-height: 800px;
-    width: auto;
+    clear: both;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
-article{
-    margin: 0% 20%;
+main article{
+    /*padding: 10px 10px;*/
+    /*border: solid white 2px;*/
+    /*border-radius: 8px;*/
 }
 
 footer{
