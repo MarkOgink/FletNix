@@ -7,46 +7,50 @@
 </head>
 <body>
 <header>
-    <h1>Fletnix</h1>
     <nav>
+        <img src="assets/img/fletnix.png">
         <ul>
-            <li class="dropdown">
-                <a href="#">Login</a>
-                <form method="get" action="homepage.html">
-                    <label for="gebruikersnaam">Gebruikersnaam: </label>
-                    <input type="text" name="gebruikersnaam" id="gebruikersnaam">
-                    <label for="wachtwoord">Wachtwoord: </label>
-                    <input type="password" name="wachtwoord" id="wachtwoord">
-                    <input type="submit" name="inloggen" value="Inloggen">
-                </form>
-            </li>
             <li>
                 <a href="abonnement.html">Abonnement</a>
             </li>
             <li>
-                <a href="filmoverzicht.html.html">Filmoverzicht</a>
+                <a href="filmoverzicht.html">Filmoverzicht</a>
             </li>
             <li>
-                <a href="gastenboek.html.html">Gastenboek</a>
+                <a href="gastenboek.html">Gastenboek</a>
             </li>
-
+            <li>
+                <a href="overons.html">Over ons</a>
+            </li>
+            <li>
+                <a href="homepage.html">Login</a>
+            </li>
         </ul>
     </nav>
 </header>
 
 <main>
     <aside>
-        Hier is de aside
+        <div class="login">
+            Login
+            <form method="get" action="homepage.html">
+                <label for="gebruikersnaam">Gebruikersnaam: </label>
+                <input type="text" name="gebruikersnaam" id="gebruikersnaam">
+                <label for="wachtwoord">Wachtwoord: </label>
+                <input type="password" name="wachtwoord" id="wachtwoord">
+                <input type="submit" name="inloggen" value="Inloggen">
+            </form>
+        </div>
     </aside>
     <article>
-        Kijk de leukste films op FletNix!
+
     </article>
     <aside>
-
+        <img src="assets/img/madagascar.jpg" alt="madagascar" title="Madagascar">;
     </aside>
 </main>
 <footer>
-Dit is de footer
+    © FletNix 2017
 </footer>
 </body>
 </html>
