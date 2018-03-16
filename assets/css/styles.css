@@ -8,14 +8,15 @@ body{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 header{
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 nav{
-    overflow: hidden;
-    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    display: block;
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav ul li {
 }
 
 nav ul li:hover{
-    transition: all 1s ease;
+    transition: all 0.5s ease;
     background-color: red;
 }
 
@@ -48,6 +49,7 @@ nav ul li a{
 nav ul li ul{
     margin: 10px -10px;
     padding: 10px 5px;
+    height: 0px;
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -57,7 +59,9 @@ nav ul li ul{
 }
 
 nav ul li:hover ul {
+    transition: all 1s ease;
     display: block;
+    height: auto;
 }
 
 nav ul li ul li {
@@ -71,8 +75,37 @@ nav ul li:hover ul li{
     padding: 5px 5px;
 }
 
+main {
+    min-height: 800px;
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main article{
+    flex-grow: 1;
+    text-align: center;
+    border: solid white 2px;
+    border-radius: 8px;
+}
+
+
+main article ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0px 50px;
+    font-size: 1.5em;
+}
+
+main article .text{
+    text-align: center;
+}
+
 main aside {
     max-width: 20%;
+    padding: 10px 10px;
+    flex-grow: 0;
 }
 
 main aside .login{
@@ -109,6 +142,7 @@ main aside form input{
 
 main aside form input[type=submit]{
     align-self: center;
+    padding: 5px 5px;
     margin: auto;
     color: white;
     background: none;
@@ -116,22 +150,7 @@ main aside form input[type=submit]{
 
 h1{
     color: white;
-    text-align: center;
     font-size: 2.5em;
-}
-
-main {
-    min-height: 800px;
-    clear: both;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-main article{
-    /*padding: 10px 10px;*/
-    /*border: solid white 2px;*/
-    /*border-radius: 8px;*/
 }
 
 footer{
