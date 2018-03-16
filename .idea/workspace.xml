@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f457f7c4-b5e9-488a-b745-e73b7060d34d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/finding_dory.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/finding_nemo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/ice_age.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/moana.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/penguins_of_madagascar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/shrek.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/the_lion_king.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/img/toy_story.jpg" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/abonnement.html" afterPath="$PROJECT_DIR$/abonnement.html" />
       <change beforePath="$PROJECT_DIR$/afspelen.html" afterPath="$PROJECT_DIR$/afspelen.html" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" afterPath="$PROJECT_DIR$/assets/css/styles.css" />
@@ -9,7 +18,7 @@
       <change beforePath="$PROJECT_DIR$/filmoverzicht.html" afterPath="$PROJECT_DIR$/filmoverzicht.html" />
       <change beforePath="$PROJECT_DIR$/gastenboek.html" afterPath="$PROJECT_DIR$/gastenboek.html" />
       <change beforePath="$PROJECT_DIR$/homepage.html" afterPath="$PROJECT_DIR$/homepage.html" />
-      <change beforePath="$PROJECT_DIR$/overons.html" afterPath="$PROJECT_DIR$/overons.html" />
+      <change beforePath="$PROJECT_DIR$/overons.html" afterPath="$PROJECT_DIR$/overmij.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +32,8 @@
       <file leaf-file-name="homepage.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="59" column="110" lean-forward="false" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -33,23 +42,13 @@
       <file leaf-file-name="abonnement.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abonnement.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="334">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding>
                 <element signature="e#1085#1091#0" expanded="true" />
-                <element signature="e#1302#1308#0" expanded="true" />
-                <element signature="e#1517#1523#0" expanded="true" />
+                <element signature="e#1337#1343#0" expanded="true" />
+                <element signature="e#1565#1571#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -57,8 +56,8 @@
       <file leaf-file-name="filmoverzicht.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/filmoverzicht.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="453">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -67,8 +66,8 @@
       <file leaf-file-name="film.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/film.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="629">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -77,28 +76,38 @@
       <file leaf-file-name="afspelen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/afspelen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="589">
+              <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gastenboek.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gastenboek.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gastenboek.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="459">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overons.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/overons.html">
+      <file leaf-file-name="overmij.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/overmij.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="657">
-              <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+            <state relative-caret-position="765">
+              <caret line="45" column="96" lean-forward="false" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="725">
+              <caret line="259" column="21" lean-forward="false" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -121,14 +130,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/filmoverzicht.html" />
+        <option value="$PROJECT_DIR$/overons.html" />
+        <option value="$PROJECT_DIR$/madagascar.html" />
         <option value="$PROJECT_DIR$/film.html" />
+        <option value="$PROJECT_DIR$/abonnement.html" />
+        <option value="$PROJECT_DIR$/filmoverzicht.html" />
         <option value="$PROJECT_DIR$/afspelen.html" />
         <option value="$PROJECT_DIR$/gastenboek.html" />
-        <option value="$PROJECT_DIR$/overons.html" />
-        <option value="$PROJECT_DIR$/homepage.html" />
-        <option value="$PROJECT_DIR$/abonnement.html" />
+        <option value="$PROJECT_DIR$/overmij.html" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/homepage.html" />
       </list>
     </option>
   </component>
@@ -160,7 +171,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -169,21 +179,11 @@
               <item name="FletNix" type="b2602c69:ProjectViewProjectNode" />
               <item name="FletNix" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="FletNix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FletNix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="FletNix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FletNix" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="img" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,8 +191,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Beroepsproduct1_FletNix_JosLemmen_MarkOgink/FletNix/fletnix_site/homepagina.html" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MarkOgink\Desktop\WebTech\FletNix\assets\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,12 +233,13 @@
       <workItem from="1520937214549" duration="14981000" />
       <workItem from="1520955182207" duration="1696000" />
       <workItem from="1521025739711" duration="11891000" />
-      <workItem from="1521130322972" duration="16062000" />
+      <workItem from="1521130322972" duration="16109000" />
+      <workItem from="1521199696183" duration="10276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73275000" />
+    <option name="totallyTimeSpent" value="83598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -276,30 +282,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gastenboek.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -314,8 +296,8 @@
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding>
             <element signature="e#1085#1091#0" expanded="true" />
-            <element signature="e#1302#1308#0" expanded="true" />
-            <element signature="e#1517#1523#0" expanded="true" />
+            <element signature="e#1337#1343#0" expanded="true" />
+            <element signature="e#1565#1571#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -352,7 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overons.html">
+    <entry file="file://$PROJECT_DIR$/overmij.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
@@ -390,8 +372,8 @@
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
           <folding>
             <element signature="e#1085#1091#0" expanded="true" />
-            <element signature="e#1302#1308#0" expanded="true" />
-            <element signature="e#1517#1523#0" expanded="true" />
+            <element signature="e#1337#1343#0" expanded="true" />
+            <element signature="e#1565#1571#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -428,7 +410,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/overons.html">
+    <entry file="file://$PROJECT_DIR$/overmij.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
@@ -471,7 +453,7 @@
     <entry file="file://$PROJECT_DIR$/filmoverzicht.html" />
     <entry file="file://$PROJECT_DIR$/film.html" />
     <entry file="file://$PROJECT_DIR$/afspelen.html" />
-    <entry file="file://$PROJECT_DIR$/overons.html" />
+    <entry file="file://$PROJECT_DIR$/overmij.html" />
     <entry file="file://$PROJECT_DIR$/abonnement.html" />
     <entry file="file://$PROJECT_DIR$/gastenboek.html" />
     <entry file="file://$PROJECT_DIR$/assets/css/styles.css" />
@@ -486,7 +468,7 @@
     <entry file="file://$PROJECT_DIR$/filmoverzicht.html" />
     <entry file="file://$PROJECT_DIR$/film.html" />
     <entry file="file://$PROJECT_DIR$/afspelen.html" />
-    <entry file="file://$PROJECT_DIR$/overons.html" />
+    <entry file="file://$PROJECT_DIR$/overmij.html" />
     <entry file="file://$PROJECT_DIR$/abonnement.html" />
     <entry file="file://$PROJECT_DIR$/gastenboek.html" />
     <entry file="file://$PROJECT_DIR$/assets/css/styles.css" />
@@ -503,70 +485,94 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Beroepsproduct1_FletNix_JosLemmen_MarkOgink/FletNix/fletnix_site/abonneren.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="35" column="35" lean-forward="true" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Beroepsproduct1_FletNix_JosLemmen_MarkOgink/FletNix/fletnix_site/homepagina.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="112" lean-forward="true" selection-start-line="28" selection-start-column="112" selection-end-line="28" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/madagascar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/filmoverzicht.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="453">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/film.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="629">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/afspelen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="589">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gastenboek.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/overons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="40" column="6" lean-forward="false" selection-start-line="40" selection-start-column="6" selection-end-line="40" selection-end-column="6" />
+        <state relative-caret-position="725">
+          <caret line="259" column="21" lean-forward="false" selection-start-line="259" selection-start-column="21" selection-end-line="259" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="59" column="110" lean-forward="false" selection-start-line="59" selection-start-column="110" selection-end-line="59" selection-end-column="110" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/abonnement.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="50" column="13" lean-forward="false" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="334">
+          <caret line="37" column="43" lean-forward="false" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
             <element signature="e#1085#1091#0" expanded="true" />
-            <element signature="e#1302#1308#0" expanded="true" />
-            <element signature="e#1517#1523#0" expanded="true" />
+            <element signature="e#1337#1343#0" expanded="true" />
+            <element signature="e#1565#1571#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/overmij.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="765">
+          <caret line="45" column="96" lean-forward="false" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gastenboek.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding />
         </state>
       </provider>

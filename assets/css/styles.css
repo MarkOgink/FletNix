@@ -14,6 +14,11 @@ header{
     justify-content: space-between;
 }
 
+h1{
+    color: white;
+    font-size: 2.5em;
+}
+
 nav{
     clear: both;
     display: block;
@@ -81,9 +86,11 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 main article{
+    min-width: 33%;
     flex-grow: 1;
     text-align: center;
     border: solid white 2px;
@@ -108,7 +115,7 @@ main aside {
     flex-grow: 0;
 }
 
-main aside .login{
+main .login{
     text-align: center;
     font-size: 2em;
     padding: 20px 20px;
@@ -120,7 +127,7 @@ main aside .login{
     text-decoration: none;
 }
 
-main aside .login form{
+main form{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -132,7 +139,7 @@ main aside .login form{
     text-align: center;
 }
 
-main aside form input{
+main form input{
     background: none;
     color: white;
     width: auto;
@@ -140,7 +147,7 @@ main aside form input{
     margin: 5px 0px;
 }
 
-main aside form input[type=submit]{
+main form input[type=submit]{
     align-self: center;
     padding: 5px 5px;
     margin: auto;
@@ -148,10 +155,116 @@ main aside form input[type=submit]{
     background: none;
 }
 
-h1{
-    color: white;
+main form.abonnement{
+    margin: 300px 35%;
+    padding: 10px 10px;
+    flex-grow: 1;
+}
+
+main form.abonnement{
     font-size: 2.5em;
 }
+
+main form.abonnement input, main form.abonnement select{
+    background: none;
+    padding: 10px 10px;
+    color: white;
+}
+
+main form.abonnement input[type=submit]{
+    transition: 1s all ease;
+    font-size: 1em;
+    background: black;
+}
+
+main form.abonnement input[type=submit]:hover{
+    font-size: 1em;
+    transition: 1s all ease;
+    background: red;
+}
+
+select option{
+    background: black;
+}
+
+::placeholder{
+    color: white;
+}
+
+main article.filmoverzicht{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+main article.filmoverzicht a, main article.filmoverzicht a img{
+    width: 400px;
+}
+
+main article.informatie{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+main article.informatie ul{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+main article.informatie ul.type li{
+    margin-bottom: 5px;
+    border: solid white 2px;
+    padding: 10px;
+}
+
+main article.informatie ul.resultaat li{
+    background: black;
+    opacity: 0.75;
+    font-size: 0.75em;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+main article.afspelen{
+    flex-grow: 1;
+}
+
+main video{
+    margin: 75px;
+    width: 25%;
+    flex-grow: 1;
+}
+
+main article.gastenboek {
+    color: black;
+    flex-grow: 1;
+    clear: both;
+    text-align: center;
+}
+
+main article.gastenboek ul{
+    color: white;
+}
+
+main article.gastenboek ul li{
+    text-align: left;
+    font-size: 0.75em;
+    margin-bottom: 5px;
+}
+
+main article div.text{
+    overflow: hidden;
+    float: right;
+    text-align: right;
+    max-width: 600px;
+    font-size: 1.5em;
+}
+
+
 
 footer{
     clear: both;
